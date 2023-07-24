@@ -4,8 +4,77 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Tea House</title>
+     <!-- tailwind and daisy ui -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- man rope google font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+     <!-- font awesome -->
+     <script src="https://kit.fontawesome.com/a4455aa4c6.js" crossorigin="anonymous"></script>
+
+     <!-- tailwind custom color -->
+     <script>
+          tailwind.config = {
+            theme: {
+              extend: {
+                colors: {
+                  clifford: '#da373d',
+                }
+              }
+            }
+          }
+        </script>
+     <style>
+          /* man-rop font from google font */
+          .font-manrope{
+               font-family: 'Poppins', sans-serif;
+          }
+     </style>
+
 </head>
-<body>
+<body class="font-manrope bg-white">
+     <!-- header section start form here -->
+     <header class="container mx-auto">
+          <div class="hero">
+               <div class="hero-content flex-col lg:flex-row">
+                 <div>
+                    <h1 class="text-5xl font-bold">
+                         It's good <br> 
+                         tea time at The <br> 
+                         Tea House</h1>
+                       <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                      <button class="btn btn-primary">Explore More <span><img src="images/arrow.png" alt=""></span></button>
+                 </div>
+                    <div>
+                         <img src="/images//banner.png" class="max-w-sm" />
+                         <div class="-mt-14 flex items-center gap-4 drop-shadow-lg bg-white rounded-md p-2 w-60">
+                              <!-- rating -->
+                              <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                              <div>
+                                   <h2 class="text-3xl">5.00</h2>
+                                   <p class="text-base">Trust Pilot Ratings</p>
+                              </div>
+                         </div>
+                    </div>
+              </div>
+        </div>
+         
+     </header>
+     <!-- header section end form here -->
+
+     <!-- main section start form here -->
+     <main>
+
+     </main>
+     <!-- main section end form here -->
+
+     <!-- footer section start form  here  -->
+     <footer>
+
+     </footer>
+     <!-- footer section end form  here  -->
      
 </body>
 </html>
